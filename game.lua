@@ -26,13 +26,13 @@ end
 
 function scene:show( event )
 
-  Runtime:addEventListener("enterFrame", gameLoop)
+  physics.start(  )
 
 end
 
 function scene:hide( event )
 
-  Runtime:addEventListener("enterFrame", gameLoop)
+  physics.pause()
 
 end
 
